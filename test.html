@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <style>
+        .chart {
+         }
+
+         .bar {
+        }
+
+        .label {
+            text-anchor: end;
+        }
+        .selected {
+        }
+
+        </style>
+        <script src="https://d3js.org/d3.v3.min.js"></script>
+        <script src="powerbiartifacts.js"></script>
+        <script src="barchart.js"></script>
+        <script src="client.js"></script>       
+    </head>
+    <body>
+        <input type="button" value="Generate Chart"
+              onclick="powerbi.extensibility.visual.renderBarChart();">
+        <div id="container" style="width:400px;height:400px;overflow:hidden">
+        </div>
+    </body>
+</html>

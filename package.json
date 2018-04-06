@@ -1,0 +1,14 @@
+{
+  "name": "typescriptlab",
+  "version": "1.0.0",
+  "description": "TypeScriptLab",
+  "main": "barchart.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/d3": "^3.5.40"
+  }
+}
